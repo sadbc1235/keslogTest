@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto&display=swap");
+.inner {
+  width: 100%;
+  height: 100%;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.pic {
+  width: 100%;
+  height: 100%;
+}
+.pic svg {
+  width: 100%;
+  height: 100%;
+}
+.pic svg path {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.wrapper header {
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+}
+.wrapper header .inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.wrapper header .inner .logo {
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+}
+.wrapper header .inner .logo h1 {
+  font-size: 30px;
+}
+.wrapper header .inner .menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 40px;
+  width: 420px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.wrapper header .inner .menu li {
+  margin-right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.wrapper header .inner .menu li:nth-of-type(5) {
+  margin-right: 0;
+}
+.wrapper .contentArea {
+  width: 100%;
+  height: calc(100vh - 70px);
+  padding: 10px;
+}
+.wrapper .contentArea .inner {
+  position: relative;
+  border: 1px solid #fff;
+}
+.wrapper .contentArea .inner .cardUp {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+}
+.wrapper .contentArea .inner .cardDown {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
